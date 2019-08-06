@@ -75,7 +75,6 @@ class BDCSVD : public SVDBase<BDCSVD<_MatrixType> >
   typedef SVDBase<BDCSVD> Base;
     
 public:
-  EIGEN_MAKE_ALIGNED_OPERATOR_NEW
   using Base::rows;
   using Base::cols;
   using Base::computeU;
